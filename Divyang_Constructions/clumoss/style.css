@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900,500');
+body {
+    padding: 0px;
+    margin: 0%;
+}
+
+.bottom {
+    background-color: #FBB040;
+    max-width: 100%;
+    padding: -10%;
+}
+
+.top {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(top.jpeg);
+    height: 800px;
+    background-size: 100%;
+    padding: 0%;
+}
+
+.top-text {
+    position: absolute;
+    margin-top: 10%;
+    top: 380px;
+    left: 50px;
+    color: white;
+    font-family: poppins;
+}
+
+.top-text p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.top img {
+    width: 20%;
+    height: inherit;
+}
+
+.top h1 {
+    text-align: left;
+    width: 35%;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    margin-left: 3%;
+    font-size: 3vw;
+    margin-top: 0%;
+}
+
+.top h2 {
+    text-align: left;
+    width: 70%;
+    color: white;
+    font-family: Poppins;
+    font-weight: 200;
+    margin-left: 3%;
+    font-size: 1.5vw;
+}
+
+.butt {
+    background-color: #FBB040;
+    width: 40%;
+    padding: 1vw;
+    border: none;
+    border-radius: 2px;
+    align-items: center;
+    font-size: 1.25vw;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    font-family: poppins;
+    margin-top: 3%;
+    font-weight: 500;
+}
+
+.butt i {
+    margin-left: -27%;
+    margin-right: 10%;
+}
+
+.butt1 {
+    background-color: #FBB040;
+    padding: 1vw;
+    border: none;
+    border-radius: 2px;
+    align-items: center;
+    font-size: 1.25vw;
+    margin-left: 0%;
+    margin-bottom: 5%;
+    font-family: poppins;
+    margin-top: 3%;
+    font-weight: 500;
+}
+
+.mid {
+    padding-top: 4.5vw;
+    padding-bottom: 4.5vw;
+}
+
+.mid h1 {
+    font-family: poppins;
+    font-weight: 500;
+}
+
+.bottom h1 {
+    font-family: poppins;
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+.midcontent {
+    display: flex;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.bottom {
+    display: flex;
+}
+
+.midcontent img {
+    width: 40vw;
+    height: 30vw;
+}
+
+.left {
+    padding: 3%;
+    padding-right: 5%;
+    max-width: 100%;
+}
+
+hr {
+    height: 10vw;
+    margin-top: 3%;
+    width: 0.15%;
+    background-color: black;
+}
+
+.left-img {
+    max-width: 100%;
+}
+
+.right {
+    padding-top: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 0;
+    max-width: 100%;
+}
+
+.right h2 {
+    color: #FBB040;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 2.3vw;
+}
+
+.right p {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 1.45vw;
+    margin-top: -3%;
+}
+
+.lef {
+    margin-left: 5%;
+    width: 50%;
+}
+
+.lef br {
+    display: none;
+}
+
+.lef p {
+    font-family: 'poppins';
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+
+.p1 {
+    position: absolute;
+    top: 200%;
+    left: 120px;
+    align-items: center;
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 20px;
+    padding: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: #FBB040;
+    border-radius: 1000%;
+}
+
+.p2 {
+    position: absolute;
+    top: 200%;
+    left: 450px;
+    align-items: center;
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 20px;
+    padding: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: #FBB040;
+    border-radius: 1000%;
+}
+
+.righ {
+    margin-left: 20%;
+    margin-top: 0.75%;
+}
+
+.righ h1 {
+    margin-bottom: -5%;
+}
+
+.righ i {
+    font-size: 2.5vw;
+    margin-left: 50px;
+    margin-right: 5px;
+}
+
+.righ h1 {
+    font-size: 1.4vw;
+}
+
+.mobile-hidden {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .top {
+        background-size: cover;
+        height: 400px;
+        margin-bottom: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .top h1 {
+        font-size: 22px;
+        margin-top: 20px;
+        margin-left: 140px;
+    }
+    .bottom {
+        display: grid;
+    }
+    .righ i {
+        margin-left: 15px;
+        font-size: 8vw;
+        color: black;
+    }
+    .top img {
+        width: auto;
+        height: 120px;
+        margin-top: 30px;
+    }
+    .top-text {
+        margin: 20px 0px;
+        left: 0;
+        color: black;
+        position: relative;
+        width: 100%;
+        margin-bottom: 100px;
+        margin-top: 0;
+    }
+    .butt {
+        margin-left: 0%;
+        width: 150%;
+        font-size: 14px;
+        font-weight: lighter;
+        padding: 12px;
+    }
+    .butt1 {
+        margin-left: 0%;
+        width: 200px;
+        font-size: 14px;
+        font-weight: lighter;
+        padding: 12px;
+    }
+    .top-text p {
+        font-size: 20px;
+    }
+    .butt {
+        margin-left: 4%;
+        width: 200px;
+        font-size: 14px;
+        font-weight: lighter;
+        padding: 12px;
+    }
+    .butt i {
+        margin-left: -27%;
+        margin-right: 10%;
+    }
+    .top h1 {
+        text-align: center;
+    }
+    .top-text {
+        top: 100px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .top-text h2 {
+        text-align: center;
+    }
+    .top-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-btn button {
+        margin: 5px 10px 5px 10px;
+    }
+    .midcontent {
+        display: flex;
+        flex-direction: column;
+    }
+    hr {
+        display: none;
+    }
+    .p1 {
+        display: none;
+        position: relative;
+        top: -100px;
+        right: -200px;
+        width: 35px;
+        padding: 10px;
+        height: 35px;
+    }
+    .p2 {
+        display: none;
+        position: relative;
+        top: -100px;
+        right: -200px;
+        width: 35px;
+        padding: 10px;
+        height: 35px;
+    }
+    .midcontent {
+        margin-bottom: 60px;
+        margin-top: 30px;
+    }
+    .right {
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    .right h2 {
+        margin-bottom: 35px;
+        font-size: 25px;
+    }
+    .right p {
+        font-size: 20px;
+    }
+    .laptop-hidden {
+        display: none;
+    }
+    .left-img {
+        padding: 0;
+        margin: 0;
+    }
+    .left-img img {
+        margin: 0;
+        height: 280px;
+        width: 390px;
+        padding: 0;
+    }
+    .right .mobile-hidden {
+        margin-top: 20px;
+        font-size: 30px;
+        display: block;
+    }
+    .lef {
+        width: 100%;
+    }
+    .lef br {
+        display: unset;
+    }
+    .bottom {
+        padding: 40px 25px 40px 25px;
+    }
+    .bottom h1 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .bottom p {
+        font-size: 20px
+    }
+}
