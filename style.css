@@ -214,6 +214,7 @@ hr {
 }
 
 .righ h1 {
+    margin-left: 17%;
     margin-bottom: -5%;
 }
 
@@ -232,6 +233,9 @@ hr {
 }
 
 @media (max-width: 768px) {
+    body {
+        align-items: center;
+    }
     .top {
         background-size: cover;
         height: 400px;
